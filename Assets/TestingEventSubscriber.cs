@@ -10,7 +10,8 @@ public class TestingEventSubscriber : MonoBehaviour
     // Update is called once per frame
     void Start()
     {
-        testES.SetCubeColor(Color.green , () => { Debug.Log("The colr was changed successfully!"); });
+        testES.SetCubeColor(Color.green , () => { Debug.Log("The color was changed successfully!wooohhooo"); });
+        Debug.Log("Hellooo there");
     }
 
     
